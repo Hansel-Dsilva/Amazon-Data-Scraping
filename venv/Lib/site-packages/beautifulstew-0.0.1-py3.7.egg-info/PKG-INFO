@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: beautifulstew
+Version: 0.0.1
+Summary: Takes care of the BeautifulSoup boilerplate so you can focus on the real problems.
+Home-page: https://github.com/npmontgomery/beautifulstew
+Author: npm
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: beautifulsoup bs4 parsing parser scraping
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
