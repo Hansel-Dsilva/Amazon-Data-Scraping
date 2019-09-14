@@ -14,9 +14,9 @@ def scrape():
         r = requests.get(base_url, headers={"User-Agent":"Defined"})
         soup = BeautifulSoup(r.text, "html.parser")
 
-        all_product = soup.find_all(lambda tag: tag.name == 'div')
+        #all_product = soup.find_all(lambda tag: tag.name == 'span')
 
-        all_product = soup.find_all(lambda tag: tag.name == 'span' and tag.get('class') == ['a-price-whole'])
+        all_product = soup.find_all('span', class_="a-size-base-plus a-color-base a-text-normal")
         print(len(all_product))
 
         for item in all_product:
