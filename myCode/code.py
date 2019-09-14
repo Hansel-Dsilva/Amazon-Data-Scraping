@@ -11,8 +11,10 @@ def scrape():
         # print(base_url)
 
         # Request URL and Beautiful Parser
-        r = requests.get(base_url)
+        r = requests.get(base_url, headers={"User-Agent":"Defined"})
         soup = BeautifulSoup(r.text, "html.parser")
+
+        all_product = soup.find_all(lambda tag: tag.name == 'div')
 
         all_product = soup.find_all(lambda tag: tag.name == 'span' and tag.get('class') == ['a-price-whole'])
         print(len(all_product))
