@@ -8,7 +8,7 @@ import numpy as np
 def scrape():
     productData = pd.DataFrame(columns=['Product_name', 'Price', 'Date', 'Time'])
     for page in range(1,4):
-
+        list_of_rows = []
         base_url = 'https://www.amazon.in/s?k=tommy+hilfiger+t+shirt+for+men&page=' + str(page)
         # print(base_url)
 
@@ -22,19 +22,18 @@ def scrape():
         print(len(all_product))
 
         attr = 'Product_name'
+        row = {}
         for item in all_product:
             #row = [{'Product_name' : np.nan, 'Price' : np.nan, 'Date' : np.nan, 'Time' : np.nan}]
-            row = {}
             if attr == 'Product_name':
+                attr = 'Price'
                 row.update({'Product_name' : str(item.string)})
-
-            if attr == 'Price':
+            elif attr == 'Price':
                 attr = 'Product_name'
-
-            #productData = productData.append(str(item.string))
-
-            counter += 1
-        #productData.append(d)
+                row.update({'Price' : str(item.string)})
+                list_of_rows.append(row)
+                row = {}
+        productData.append(list_of_rows)
     return productData
 
 
