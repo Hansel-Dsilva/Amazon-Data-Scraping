@@ -2,7 +2,8 @@
 from bs4 import BeautifulSoup
 import requests
 import pandas as pd
-import numpy as np
+from datetime import datetime
+
 
 
 def scrape():
@@ -21,19 +22,18 @@ def scrape():
         all_product = soup.find_all('span', class_)
         print(len(all_product))
 
-        attr = 'Product_name'
+        #attr = 'Product_name'
         row = {}
         for item in all_product:
-            #row = [{'Product_name' : np.nan, 'Price' : np.nan, 'Date' : np.nan, 'Time' : np.nan}]
-            if attr == 'Product_name':
-                attr = 'Price'
+            if item.attrs['class'] == ['a-size-base-plus', 'a-color-base', 'a-text-normal']:
                 row.update({'Product_name' : str(item.string)})
-            elif attr == 'Price':
-                attr = 'Product_name'
+            elif item.attrs['class'] == ['a-price-whole']:
                 row.update({'Price' : str(item.string)})
+                row.update({'Date': str(datetime.today().strftime('%Y-%m-%d'))})
+                row.update({'Time': str(datetime.time(datetime.now()))})
                 list_of_rows.append(row)
                 row = {}
-        productData.append(list_of_rows)
+        productData = productData.append(list_of_rows)
     return productData
 
 
