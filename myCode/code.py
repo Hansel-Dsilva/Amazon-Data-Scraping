@@ -2,6 +2,7 @@
 from bs4 import BeautifulSoup
 import requests
 import pandas as pd
+import numpy as np
 
 
 def scrape():
@@ -20,12 +21,15 @@ def scrape():
         all_product = soup.find_all('span', class_)
         print(len(all_product))
 
-        counter = 1
+        attr = 'Product_name'
         for item in all_product:
-            if counter == 1:
+            #row = [{'Product_name' : np.nan, 'Price' : np.nan, 'Date' : np.nan, 'Time' : np.nan}]
+            row = {}
+            if attr == 'Product_name':
+                row.update({'Product_name' : str(item.string)})
 
-            if counter == 2:
-                counter = 1
+            if attr == 'Price':
+                attr = 'Product_name'
 
             #productData = productData.append(str(item.string))
 
