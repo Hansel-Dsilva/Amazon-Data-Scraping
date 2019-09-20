@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6534343c-e962-444a-a5f9-9cea9ccf532f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/myCode/code.py" beforeDir="false" afterPath="$PROJECT_DIR$/myCode/code.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,8 +18,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/myCode/code.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+            <state relative-caret-position="-299">
+              <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -250,7 +249,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568900044257</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="DONE : export dataframe to csv file in ../mData/">
+      <created>1568980742204</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1568980742204</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -262,7 +268,7 @@
       <window_info id="Favorites" order="2" side_tool="true" weight="0.32969153" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28286853" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.28286853" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49603173" weight="0.38911024" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -349,7 +355,8 @@
     <MESSAGE value="test2" />
     <MESSAGE value="gonna change from attr to class_" />
     <MESSAGE value="return dataframe done" />
-    <option name="LAST_COMMIT_MESSAGE" value="return dataframe done" />
+    <MESSAGE value="DONE : export dataframe to csv file in ../mData/" />
+    <option name="LAST_COMMIT_MESSAGE" value="DONE : export dataframe to csv file in ../mData/" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -454,8 +461,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/myCode/code.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+        <state relative-caret-position="-299">
+          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
         </state>
       </provider>
     </entry>

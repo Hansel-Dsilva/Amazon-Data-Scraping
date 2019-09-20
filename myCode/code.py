@@ -9,7 +9,7 @@ def scrape():
     from pathlib import Path
 
     productData = pd.DataFrame(columns=['Product_name', 'Price', 'Date', 'Time'])
-    for page in [1,2,3]:
+    for page in [1, 2, 3]:
         list_of_rows = []
         base_url = 'https://www.amazon.in/s?k=tommy+hilfiger+t+shirt+for+men&page=' + str(page)
         # print(base_url)
@@ -35,7 +35,7 @@ def scrape():
                 row = {}
         productData = productData.append(list_of_rows)
 
-    filename = Path(r"C:\Users\HanselAIO\PycharmProjects\dataScraping\myData") / ("{0:%Y-%m-%d_%H:%M:%S}".format(datetime.now()) + '.csv')
+    #filename = Path(r"C:\Users\HanselAIO\PycharmProjects\dataScraping\myData") / ("{0:%Y-%m-%d_%H:%M:%S}".format(datetime.now()) + '.csv')
     #productData.to_csv(r'C:\Users\HanselAIO\PycharmProjects\dataScraping\myCode\data\file2.csv', mode="w+")
     #csv_file = open("data"+"\{0:%Y-%m-%d_%H:%M:%S}".format(datetime.now())+".csv", mode="w+")
 
