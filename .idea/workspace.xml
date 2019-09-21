@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6534343c-e962-444a-a5f9-9cea9ccf532f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/myCode/code.py" beforeDir="false" afterPath="$PROJECT_DIR$/myCode/code.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/myCode/data/HilfigerTshirts.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myCode/data/file1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myCode/data/file2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/myCode/data/lol.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/myCode/FlaskBS4dataScaraping.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,8 +24,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/myCode/code.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-299">
-              <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+            <state relative-caret-position="-13">
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
             </state>
           </provider>
         </entry>
@@ -27,7 +33,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://C:/Program Files/Python37/Lib/pathlib.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
+            <state relative-caret-position="4290">
               <caret line="207" selection-start-line="207" selection-end-line="207" />
             </state>
           </provider>
@@ -36,7 +42,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
+            <state relative-caret-position="374">
               <caret line="17" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
@@ -45,7 +51,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://C:/Program Files/Python37/Lib/codecs.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
+            <state relative-caret-position="7106">
               <caret line="324" selection-start-line="324" selection-end-line="324" />
             </state>
           </provider>
@@ -54,7 +60,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/pandas/io/common.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
+            <state relative-caret-position="8096">
               <caret line="398" selection-start-line="398" selection-end-line="398" />
             </state>
           </provider>
@@ -95,11 +101,14 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="ProjectPane" />
+      <pane id="Scope" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="C:/Program Files/Git/bin/git.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../pyAsnProject" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
@@ -261,9 +270,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="792" y="-8" width="816" height="886" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.18637532" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18518518" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" weight="0.32969153" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -379,9 +387,7 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/venv/myCode/FlaskBS4dataScaraping.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/myCode/FlaskBS4dataScaraping.py" />
     <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/bs4/element.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21692">
@@ -431,38 +437,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Program Files/Python37/Lib/codecs.py">
+    <entry file="file://$PROJECT_DIR$/myCode/code.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="324" selection-start-line="324" selection-end-line="324" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="-13">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://C:/Program Files/Python37/Lib/pathlib.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
+        <state relative-caret-position="4290">
           <caret line="207" selection-start-line="207" selection-end-line="207" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Python37/Lib/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7106">
+          <caret line="324" selection-start-line="324" selection-end-line="324" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/pandas/io/common.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
+        <state relative-caret-position="8096">
           <caret line="398" selection-start-line="398" selection-end-line="398" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myCode/code.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-299">
-          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
         </state>
       </provider>
     </entry>
